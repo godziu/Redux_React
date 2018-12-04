@@ -1,6 +1,4 @@
 import React from 'react';
-import { thumbUpComment } from './actions.js';
-import { thumbDownComment } from './actions.js';
 
 const Comment = ({text, votes, id, thumbUpComment, thumbDownComment}) =>
   <li>

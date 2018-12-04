@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="App">
       Lista komentarzy:
-      <CommentsListContainer></CommentsListContainer>
+      <CommentsListContainer />
     </div>
   );
 };

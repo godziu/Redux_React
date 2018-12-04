@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { Provider } from 'react-redux';
 import { addComment } from './actions.js';
-import { createStore, combineReducers } from 'redux';
+import { createStore } from 'redux';
 import { reducer } from './reducer.js';
 
 
